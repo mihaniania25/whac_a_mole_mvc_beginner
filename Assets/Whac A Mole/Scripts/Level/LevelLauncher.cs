@@ -8,6 +8,7 @@ namespace MeShineFactory.WhacAMole.Level
     public class LevelLauncher : MonoBehaviour
     {
         [SerializeField] private LevelView view;
+        [SerializeField] private LevelConfiguration configuration;
 
         private ILevelModel model;
         private ILevelController controller;
@@ -15,7 +16,7 @@ namespace MeShineFactory.WhacAMole.Level
         private void Awake()
         {
             model = GetLevelModel();
-            model.Setup();
+            model.Setup(configuration);
 
             view.Setup(model);
 

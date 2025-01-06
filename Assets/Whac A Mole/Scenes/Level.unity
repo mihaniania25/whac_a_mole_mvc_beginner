@@ -1022,9 +1022,9 @@ MonoBehaviour:
   configuration:
     <GameDelay>k__BackingField: 1
     <SpawnInterval>k__BackingField:
-      <Value1>k__BackingField: 2
-      <Value2>k__BackingField: 4
-    <DespawnDelay>k__BackingField: 2.5
+      <Value1>k__BackingField: 1
+      <Value2>k__BackingField: 1.5
+    <DespawnDelay>k__BackingField: 1
 --- !u!4 &1687589816
 Transform:
   m_ObjectHideFlags: 0
